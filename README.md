@@ -42,6 +42,9 @@ O projeto E-Commerce CircuitMart é uma plataforma de comércio eletrônico comp
 ### Hospedagem:
   - vercel
 
+### Links:
+  - Front: https://circuit-mart.vercel.app/
+
 #### Contribuições e Colaborações:
 Estamos entusiasmados em receber contribuições da comunidade para aprimorar o projeto. Se você é desenvolvedor ou designer e deseja colaborar conosco, fique à vontade para abrir uma "issue" ou enviar um "pull request" no repositório do GitHub. Trabalhando juntos, podemos tornar o E-Commerce EmpórioVirtual uma plataforma ainda melhor.
 
