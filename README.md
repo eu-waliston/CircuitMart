@@ -3,7 +3,7 @@
 
 ## Descrição:
 
-O projeto E-Commerce EmpórioVirtual é uma plataforma de comércio eletrônico completa, desenvolvida para proporcionar uma experiência de compra fácil e agradável aos usuários. Nossa missão é oferecer um ambiente virtual seguro e intuitivo, permitindo que os clientes encontrem os melhores produtos com apenas alguns cliques.
+O projeto E-Commerce CircuitMart é uma plataforma de comércio eletrônico completa, desenvolvida para proporcionar uma experiência de compra fácil e agradável aos usuários. Nossa missão é oferecer um ambiente virtual seguro e intuitivo, permitindo que os clientes encontrem os melhores produtos com apenas alguns cliques.
 
 ### Recursos e Funcionalidades:
 
