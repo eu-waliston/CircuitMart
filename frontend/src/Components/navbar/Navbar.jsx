@@ -15,34 +15,34 @@ const Navbar = () => {
         </div>
 
         <div className="nav-iten menu-nav">
-          <Link className="nav-link home" to={"/home"}>
+          <Link className="nav-link home link-effect" to={"/home"}>
             inicio
           </Link>
-          <Link className="nav-link" to={"/headphones"}>
+          <Link className="nav-link link-effect" to={"/headphones"}>
             headphones
           </Link>
 
-          <Link className="nav-link" to={"/drones"}>
+          <Link className="nav-link link-effect" to={"/drones"}>
             drones
           </Link>
 
-          <Link className="nav-link" to={"/cellphones"}>
+          <Link className="nav-link link-effect" to={"/cellphones"}>
             celulares
           </Link>
 
-          <Link className="nav-link" to={"/clocks"}>
+          <Link className="nav-link link-effect" to={"/clocks"}>
             relógios
           </Link>
         </div>
 
         <div className="nav-iten">
           <div>
-            <Link className="nav-link" to={"/cart"}>
+            <Link className="nav-link link-effect" to={"/cart"}>
               <AiOutlineShoppingCart className="nav-icon" />
             </Link>
           </div>
           <div>
-            <Link to={"/login"} className="nav-link">
+            <Link to={"/login"} className="nav-link link-effect">
               <FaUser className="nav-icon" />
             </Link>
           </div>

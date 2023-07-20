@@ -23,10 +23,12 @@
             }
 
             .nav-link {
-                margin-right: 20px;
+                margin-right: 10px;
                 text-decoration: none;
                 text-transform: uppercase;
                 color: #fff;
+                padding: 10px;
+                font-weight: 500;
             }
 
             .home {
@@ -37,6 +39,13 @@
             .nav-icon {
                 font-size: 1.5rem;
                 margin-right: 5px;
+                
+            }
+            .link-effect {
+                &:hover {
+                    transition: .8s;
+                    opacity: 0.7;
+                }
             }
             
         }
