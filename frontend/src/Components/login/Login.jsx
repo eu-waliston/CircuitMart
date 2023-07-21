@@ -38,7 +38,7 @@ const Login = () => {
           />
           {errors.senha && <p>O campo de senha é obrigatório!!! </p>}
           <br />
-          <Link className="btn-submit">Entrar</Link>
+          <Link className="btn-submit" to={"/"}>Entrar</Link>
           
         </form>
 

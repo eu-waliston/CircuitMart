@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
 
         <div className="nav-iten menu-nav">
-          <Link className="nav-link home link-effect" to={"/home"}>
+          <Link className="nav-link home link-effect" to={"/"}>
             inicio
           </Link>
           <Link className="nav-link link-effect" to={"/headphones"}>
