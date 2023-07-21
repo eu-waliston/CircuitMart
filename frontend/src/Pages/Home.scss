@@ -39,4 +39,25 @@ $base-color: #2E8BC0;
         }
     }
   }
+
+  h1 {
+    position: relative;
+    top: 150px;
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+
+  .daily-offers-section {
+    background-color: #2E8BC0;
+    height: 100vh;
+    position: relative;
+    top: 160px;
+  }
+
+  .ofertas {
+    width: 100%;
+    position: relative;
+    top: 180px;
+    margin-bottom: 40px;
+  }
 }
