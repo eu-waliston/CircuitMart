@@ -1,3 +1,42 @@
+$base-color: #3a7981;
+
 .home-component {
-    width: 100%;
+  width: 80%;
+  margin: 0 auto;
+
+  .promotion-section {
+    position: relative;
+    top: 105px;
+  }
+
+  .advantages-section {
+    position: relative;
+    top: 120px;
+    display: grid;
+    grid-template-columns: repeat(4, 332px);
+    gap: 50px;
+
+    .advantages {
+        display: flex;
+        background-color: $base-color;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 45px rgba(0,0,0, 0.20);
+        
+        
+        .icon {
+            font-size: 2rem;
+            margin-right: 20px;
+            color: #fff;
+        }
+
+        h3 {
+            font-weight: 400;
+            color: #fff;
+            position: relative;
+            top: 5px;
+            font-size: 1rem; 
+        }
+    }
+  }
 }
