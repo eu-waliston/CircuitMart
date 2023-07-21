@@ -3,11 +3,13 @@ import { Routes, Route } from "react-router-dom";
 
 import Login from "../Components/login/Login";
 import Register from "../Components/register/Register";
+import Home from "../Components/Home/Home";
 
 
 const AllRoutes = () => {
   return (
     <Routes>
+      <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
     </Routes>

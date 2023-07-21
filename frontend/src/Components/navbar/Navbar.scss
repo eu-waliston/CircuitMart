@@ -4,6 +4,7 @@
     background-color: #3a7981;
     box-shadow: 5px 5px 50px rgba(0,0,0,0.20);
     position: fixed;
+    z-index: 5;
 
     .nav--itens {
         display: flex;
