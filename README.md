@@ -1,5 +1,5 @@
 
-![pngegg](https://github.com/wal-wizard/React-ECommerce/assets/82295321/ea0a0003-8fc5-4a47-a1df-66c23fd0e41b)
+![Circuit_Mart -removebg-preview](https://github.com/wal-wizard/CircuitMart/assets/82295321/a651caf5-6f28-4b9e-b40e-cab904fa5251)
 
 ## Descrição:
 
