@@ -1,5 +1,5 @@
-$base-color: #FFF159;
-$text-color: rgb(54, 53, 53);
+@import "../utilities/variables.scss";
+
 .home-component {
   width: 80%;
   margin: 0 auto;
@@ -18,10 +18,10 @@ $text-color: rgb(54, 53, 53);
 
     .advantages {
         display: flex;
-        background-color: $base-color;
+        background-color: $default-color;
         padding: 20px;
         border-radius: 10px;
-        box-shadow: 5px 5px 45px rgba(0,0,0, 0.20);
+        box-shadow: $shadow-effect;
         
         
         .icon {

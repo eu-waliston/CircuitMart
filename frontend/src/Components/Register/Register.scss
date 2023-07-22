@@ -1,9 +1,9 @@
-$base-color: #2E8BC0;
+@import "../../utilities/variables.scss";
 
 .login-component {
     width: 100%;
     height: 100vh;
-    background-color: $base-color;
+
   
     display: flex;
     justify-content: space-evenly;
@@ -24,13 +24,13 @@ $base-color: #2E8BC0;
       }
   
       .user-icon {
-        color: #fff;
+        color: $default-color;
         font-size: 4rem;
         margin-bottom: 20px;
       }
   
       p {
-        color: #fff;
+        color: $default-color;
       }
     }
   
@@ -48,8 +48,8 @@ $base-color: #2E8BC0;
         text-align: center;
         padding: 13px;
         text-transform: uppercase;
-        background-color: #ffffff;
-        color: $base-color;
+        color: #ffffff;
+        background-color: $default-color;
         text-decoration: none;
         margin-bottom: 10px;
         margin-top: -15px;

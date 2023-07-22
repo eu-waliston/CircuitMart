@@ -35,6 +35,22 @@ const Navbar = () => {
             <Link className="nav-link link-effect" to={"/clocks"}>
               relógios
             </Link>
+
+            <Link className="nav-link link-effect" to={"/clocks"}>
+              mouses
+            </Link>
+
+            <Link className="nav-link link-effect" to={"/clocks"}>
+              teclados
+            </Link>
+
+            <Link className="nav-link link-effect" to={"/clocks"}>
+              mouses pad
+            </Link>
+
+            <Link className="nav-link link-effect" to={"/clocks"}>
+              monitores
+            </Link>
           </div>
         </div>
 
