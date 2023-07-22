@@ -1,19 +1,19 @@
-$base-color: #2E8BC0;
-
+$base-color: #FFF159;
+$text-color: rgb(54, 53, 53);
 .home-component {
   width: 80%;
   margin: 0 auto;
 
   .promotion-section {
     position: relative;
-    top: 105px;
+    top: 125px;
   }
 
   .advantages-section {
     position: relative;
-    top: 120px;
+    top: 135px;
     display: grid;
-    grid-template-columns: repeat(4, 332px);
+    grid-template-columns: repeat(4, 330px);
     gap: 50px;
 
     .advantages {
@@ -27,12 +27,12 @@ $base-color: #2E8BC0;
         .icon {
             font-size: 2rem;
             margin-right: 20px;
-            color: #fff;
+            color: $text-color;
         }
 
         h3 {
             font-weight: 400;
-            color: #fff;
+            color: $text-color;
             position: relative;
             top: 5px;
             font-size: 1rem; 
