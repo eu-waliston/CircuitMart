@@ -48,10 +48,16 @@
   }
 
   .daily-offers-section {
-    background-color: #2E8BC0;
-    height: 100vh;
+    height: 130vh;
     position: relative;
     top: 160px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    padding: 30px;
   }
 
   .ofertas {

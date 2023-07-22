@@ -3,23 +3,16 @@
     "imgURL": "https://imgbox.com/v6VI1P1a",
     "name": "Celular Xiaomi Redmi 12",
     "price": 1.399,
-    "discount": "15% OFF",
+    "discount": "15% de Desconto",
     "installments": "10x R$ 139,90 sem juros",
     "flag": "recomendado"
   },
-  {
-    "imgURL": "https://imgbox.com/XwGMrbFK",
-    "name": "Notebook Lenovo Ideapad i7 8gb",
-    "price": 2.399,
-    "discount": "15% OFF",
-    "installments": "10x R$ 239,90 sem juros",
-    "flag": "oferta do dia"
-  },
+ 
   {
     "imgURL": "https://imgbox.com/9991BFs4",
     "name": "Teclado Gamer Semi Mecânico Led",
     "price": 69.43,
-    "discount": "10% OFF",
+    "discount": "10% de Desconto",
     "installments": "12x R$ 6,75",
     "flag": "recomendado"
   },
@@ -27,7 +20,7 @@
     "imgURL": "https://imgbox.com/F0E7IAa0",
     "name": "Mouse sem fio M280 preto Logitech",
     "price": 84.65,
-    "discount": "12% OFF",
+    "discount": "12% de Desconto",
     "installments": "12x R$ 8,23",
     "flag": "mais vendido"
   },
@@ -35,7 +28,7 @@
     "imgURL": "https://imgbox.com/aHNPceHB",
     "name": "Mousepad Gamer Profissional 90x40",
     "price": 48.9,
-    "discount": "5% OFF",
+    "discount": "5% de Desconto",
     "installments": "12x R$ 4,74",
     "flag": "mais vendido"
   },
@@ -43,7 +36,7 @@
     "imgURL": "https://imgbox.com/hI9OpFeK",
     "name": "Amazon Echo Dot 5th Gen",
     "price": 318,
-    "discount": "12% OFF",
+    "discount": "12% de Desconto",
     "installments": "12x R$ 30,83",
     "flag": "oferta do dia"
   },
@@ -51,7 +44,7 @@
     "imgURL": "https://imgbox.com/LmOo83A3",
     "name": "Relógio Smartwatch Haylou Gst Bluetooth 5.1 Tela De 1,69",
     "price": 193.8,
-    "discount": "16% OFF",
+    "discount": "16% de Desconto",
     "installments": "6x R$ 32,30 sem juros",
     "flag": "oferta do dia"
   },
@@ -59,7 +52,7 @@
     "imgURL": "https://imgbox.com/xTq3BqWv",
     "name": "Monitor Acer V6 V206HQL Abi LCD 19.5 preto 100V/240V",
     "price": 459,
-    "discount": "17% OFF",
+    "discount": "17% de Desconto",
     "installments": "12x R$ 44,50",
     "flag": "oferta do dia"
   },
@@ -67,7 +60,7 @@
     "imgURL": "https://imgbox.com/jLqcfAdA",
     "name": "Fone de ouvido on-ear JBL Tune 500 JBLT5000 preto",
     "price": 129,
-    "discount": "26% OFF",
+    "discount": "26% de Desconto",
     "installments": "12x R$ 12,54",
     "flag": "recomendado"
   },
@@ -75,7 +68,7 @@
     "imgURL": "https://imgbox.com/qNt5IWwC",
     "name": "Drone L900 Pro Se 4k Gps 1,2km 25m",
     "price": 859.99,
-    "discount": "5% OFF",
+    "discount": "5% de Desconto",
     "installments": "10x R$ 86, sem juros",
     "flag": "recomendado"
   }

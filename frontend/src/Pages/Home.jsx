@@ -17,9 +17,10 @@ import { MdPhoneAndroid } from "react-icons/md";
 import { RiSecurePaymentLine } from "react-icons/ri";
 
 //Components
-import HomeItens from "../Components/Itens/Itens";
+import Products from "../Components/Products/Products";
 
-
+//API Fake
+import products from "./products.json";
 
 const Home = () => {
   return (
@@ -72,12 +73,32 @@ const Home = () => {
       </div>
       <h1>Ofertas do dia</h1>
       <div className="daily-offers-section">
-          < HomeItens />
+        {products.map((entry) => (
+          <Products
+            imgURL={entry.imgURL}
+            name={entry.name}
+            price={entry.price}
+            discount={entry.discount}
+            installments={entry.installments}
+            flag={entry.flag}
+          />
+        ))}
       </div>
       <Link to={"/thunder"}>
-      <img src="./images/relampago.png" alt="ofertas" className="ofertas" />
+        <img src="./images/relampago.png" alt="ofertas" className="ofertas" />
       </Link>
-      <div className="daily-offers-section"></div>
+      <div className="daily-offers-section">
+        {products.map((entry) => (
+          <Products
+            imgURL={entry.imgURL}
+            name={entry.name}
+            price={entry.price}
+            discount={entry.discount}
+            installments={entry.installments}
+            flag={entry.flag}
+          />
+        ))}
+      </div>
     </div>
   );
 };

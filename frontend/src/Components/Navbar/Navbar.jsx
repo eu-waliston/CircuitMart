@@ -55,10 +55,6 @@ const Navbar = () => {
             <Link className="nav-link link-effect" to={"/echos-dot"}>
               echos dot
             </Link>
-
-            <Link className="nav-link link-effect" to={"/notebooks"}>
-              notebooks
-            </Link>
           </div>
         </div>
 

@@ -1,0 +1,47 @@
+@import "../../utilities/variables.scss";
+
+.iten {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: $sqaure-color;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: $shadow-effect;
+  &:hover {
+    cursor: pointer;
+    transition: .8s;
+    transform: scale(1.1);
+  }
+
+  .product-flag {
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: $flag-color;
+    width: 50%;
+    color: $text-color;
+    border-radius: 20px;
+    left: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .product-name {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  .product-price {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .product-installments, .product-discount {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: $discount-color;
+  }
+}
