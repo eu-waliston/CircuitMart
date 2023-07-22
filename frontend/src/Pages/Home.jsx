@@ -1,19 +1,25 @@
 import React from "react";
 import "./Home.scss";
 
+//React Utils
+import { Link } from "react-router-dom";
 
+//Swiper Imports
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { Autoplay, Pagination } from "swiper/modules";
-
+//Icons Imports
 import { AiFillCreditCard } from "react-icons/ai";
 import { FaHandHoldingUsd } from "react-icons/fa";
 import { MdPhoneAndroid } from "react-icons/md";
 import { RiSecurePaymentLine } from "react-icons/ri";
-import { Link } from "react-router-dom";
+
+//Components
+import HomeItens from "../Components/Itens/Itens";
+
+
 
 const Home = () => {
   return (
@@ -65,7 +71,9 @@ const Home = () => {
         </div>
       </div>
       <h1>Ofertas do dia</h1>
-      <div className="daily-offers-section"></div>
+      <div className="daily-offers-section">
+          < HomeItens />
+      </div>
       <Link to={"/thunder"}>
       <img src="./images/relampago.png" alt="ofertas" className="ofertas" />
       </Link>

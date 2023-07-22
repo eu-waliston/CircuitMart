@@ -32,31 +32,31 @@ const Navbar = () => {
               celulares
             </Link>
 
-            <Link className="nav-link link-effect" to={"/clocks"}>
+            <Link className="nav-link link-effect" to={"/relógios"}>
               relógios
             </Link>
 
-            <Link className="nav-link link-effect" to={"/clocks"}>
+            <Link className="nav-link link-effect" to={"/mouses"}>
               mouses
             </Link>
 
-            <Link className="nav-link link-effect" to={"/clocks"}>
+            <Link className="nav-link link-effect" to={"/teclados"}>
               teclados
             </Link>
 
-            <Link className="nav-link link-effect" to={"/clocks"}>
+            <Link className="nav-link link-effect" to={"/mouses-pad"}>
               mouses pad
             </Link>
 
-            <Link className="nav-link link-effect" to={"/clocks"}>
+            <Link className="nav-link link-effect" to={"/monitores"}>
               monitores
             </Link>
 
-            <Link className="nav-link link-effect" to={"/clocks"}>
+            <Link className="nav-link link-effect" to={"/echos-dot"}>
               echos dot
             </Link>
 
-            <Link className="nav-link link-effect" to={"/clocks"}>
+            <Link className="nav-link link-effect" to={"/notebooks"}>
               notebooks
             </Link>
           </div>
