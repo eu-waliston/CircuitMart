@@ -1,3 +1,7 @@
+const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
+
+
 const User = require("../models/user.model");
 
 async function getAllUsers(req, res) {
@@ -32,7 +36,7 @@ async function updateUser(req, res) {
         role: req.body.role,
       },
     });
-    let updatedUser = await User.find()
+    let updatedUser = await User.find();
     res.json(updatedUser);
   } catch (error) {
     res.json(error);
@@ -47,6 +51,33 @@ async function createUser(req, res) {
   } catch (error) {
     res.send(error);
     console.log(error);
+  }
+}
+
+async function createUserWithAuth(req, res) {
+  try {
+    const encryptedUserPassword = await bcrypt.hash(password, 10);
+
+    const user = await User.create({
+      name: req.body.name,
+      email: req.body.email,
+      password: encryptedUserPassword,
+      datNasc: req.body.datNasc,
+      role: req.body.role,
+    });
+
+    const token = jwt.sign(
+      { user_id: user._id, email },
+      process.env.TOKEN_KEY,
+      {
+        expiresIn: "5h",
+      }
+    );
+
+    user.token = token;
+    res.status(200).json(user);
+  } catch (error) {
+    res.json(error);
   }
 }
 
@@ -68,4 +99,5 @@ module.exports = {
   updateUser,
   createUser,
   deleteUserById,
+  createUserWithAuth
 };
