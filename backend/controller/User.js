@@ -12,8 +12,8 @@ async function getAllUsers(req, res) {
 async function getUserById(req, res) {
   const id = req.params.id;
   try {
-    await User.findById(id);
-    res.json(id);
+    let user = await User.findById(id);
+    res.json(user);
   } catch (error) {
     req.send(error);
     console.log(error);
@@ -22,12 +22,13 @@ async function getUserById(req, res) {
 
 async function updateUser(req, res) {
   const id = req.params.id;
-  try {
-    const user = await User.findByIdAndUpdate(id)
-    res.json(user)
-  } catch (error) {
-    res.json(error)
-  }
+  await User.findByIdAndUpdate(id, (err, docs) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("User Updated : \n", docs);
+    }
+  });
 }
 
 async function createUser(req, res) {
