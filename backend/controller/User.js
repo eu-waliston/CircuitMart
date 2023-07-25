@@ -22,13 +22,20 @@ async function getUserById(req, res) {
 
 async function updateUser(req, res) {
   const id = req.params.id;
-  await User.findByIdAndUpdate(id, (err, docs) => {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log("User Updated : \n", docs);
-    }
-  });
+  try {
+    let user = await User.findByIdAndUpdate(id, {
+      $set: {
+        name: req.body.name,
+        email: req.body.email,
+        password: req.body.password,
+        datNasc: req.body.datNasc,
+        role: req.body.role,
+      },
+    });
+    res.json(user);
+  } catch (error) {
+    res.json(error);
+  }
 }
 
 async function createUser(req, res) {
