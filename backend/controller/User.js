@@ -23,7 +23,7 @@ async function getUserById(req, res) {
 async function updateUser(req, res) {
   const id = req.params.id;
   try {
-    let user = await User.findByIdAndUpdate(id, {
+    await User.findByIdAndUpdate(id, {
       $set: {
         name: req.body.name,
         email: req.body.email,
@@ -32,7 +32,8 @@ async function updateUser(req, res) {
         role: req.body.role,
       },
     });
-    res.json(user);
+    let updatedUser = await User.find()
+    res.json(updatedUser);
   } catch (error) {
     res.json(error);
   }
