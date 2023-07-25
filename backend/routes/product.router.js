@@ -12,3 +12,6 @@ products.post("/products", CreateProduct);
 products.put("/products/:id", updateProduct);
 
 products.delete("/products/:id", deleteProduct)
+
+
+module.exports = products;
