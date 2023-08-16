@@ -6,7 +6,7 @@ require("dotenv").config;
 
 const api = express();
 
-require("./config/databse");
+require("../config/databse");
 
 api.use(express.json());
 api.use(express.urlencoded({ extended: true }));
