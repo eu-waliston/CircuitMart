@@ -41,6 +41,8 @@ O projeto E-Commerce CircuitMart é uma plataforma de comércio eletrônico comp
 
 ### Hospedagem:
   - vercel
+  - AWS
+  - Render API
 
 ### Links:
   - Front: https://circuit-mart.vercel.app/
