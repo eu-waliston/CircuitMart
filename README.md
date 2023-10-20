@@ -28,7 +28,7 @@ O projeto E-Commerce CircuitMart é uma plataforma de comércio eletrônico comp
   - React icons
   - Google Fonts
   - Sass
-
+  - React Router Dom
 ### No Back:
   - NodeJs
   - Express
